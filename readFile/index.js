@@ -2,7 +2,7 @@
  * Created by xiaoqi on 16/8/20.
  */
 var  fs =require('fs');
-var path=require('path')
+var path=require('path');
 let readFile=(src)=>{
     let data=fs.readFileSync(src);
     console.log(data);
